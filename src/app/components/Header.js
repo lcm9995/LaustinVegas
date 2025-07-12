@@ -14,7 +14,7 @@ export default function Header() {
     <div className="flex flex-col items-center px-4 pt-12 sm:pt-8">
       <div className="flex justify-center mt-0 mb-12 sm:mb-6 md:mb-7">
         <img 
-          src="/Asset 17.svg" 
+          src="/Asset 18.svg" 
           alt="Laustin Vegas Logo" 
           className="w-[600px] h-[180px] lg:w-[600px] lg:h-[180px] sm:w-[200px] sm:h-[160px] md:w-[300px] md:h-[300px] object-fill"
         />
