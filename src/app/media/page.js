@@ -5,34 +5,34 @@ export default function MediaPage() {
     <div className="bg-black text-white min-h-screen flex flex-col items-center p-8">
       <Header />
 
-      <div className=" w-full flex flex-col items-center space-y-16">
+      <div className="w-full flex flex-col items-center space-y-16 mt-6 sm:mt-10 md:mt-14 lg:mt-20 px-4">
         {/* Video 1 */}
-        <iframe
-          width="800"
-          height="500"
-          src="https://www.youtube.com/embed/zZfrONeUMGI?si=DqL3YYdOem2A3txC"
-          title="Laustin Vegas - Video 1"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-          className="rounded-lg"
-        ></iframe>
+        <div className="w-full max-w-3xl aspect-video">
+          <iframe
+            src="https://www.youtube.com/embed/zZfrONeUMGI?si=DqL3YYdOem2A3txC"
+            title="Laustin Vegas - Video 1"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+            className="w-full h-full rounded-lg"
+          ></iframe>
+        </div>
 
         {/* Video 2 */}
-        <iframe
-          width="800"
-          height="500"
-          src="https://www.youtube.com/embed/6fa9kEOsBUQ"
-          title="Laustin Vegas - Video 2"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-          className="rounded-lg"
-        ></iframe>
+        <div className="w-full max-w-3xl aspect-video">
+          <iframe
+            src="https://www.youtube.com/embed/6fa9kEOsBUQ"
+            title="Laustin Vegas - Video 2"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+            className="w-full h-full rounded-lg"
+          ></iframe>
+        </div>
 
-        {/* Add more videos as needed, same structure */}
+        {/* Add more videos using the same structure */}
       </div>
     </div>
   );

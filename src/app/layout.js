@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
       
         <main className="flex-1">{children}
         </main>
-        <footer className="text-center p-4 text-xs border-t bg-grey-500 border-black">
+        <footer className="text-center p-4 text-xs text-white border-t bg-black border-black">
           © {new Date().getFullYear()} Laustin Vegas. All rights reserved.
         </footer>
       </body>
