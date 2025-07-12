@@ -4,12 +4,12 @@ import { FaInstagram, FaEnvelope, FaYoutube } from "react-icons/fa";
 
 export default function About() {
     return (
-      <div className="bg-black text-white min-h-screen flex flex-col items-center justify-center p-8">
+      <div className="bg-black text-white min-h-screen flex flex-col items-center p-8">
         <Header />
         <div className="flex flex-col items-center px-4 pt-12 w-full max-w-5xl">
           <div className="w-full border border-white p-8">
             <p className="text-lg leading-relaxed text-center">
-              Laustin Vegas is a [insert your description here]. He makes genre-bending music that blends smooth vocals with lush production. Blah blah blah.
+              Vegas
             </p>
             <div className="flex justify-center space-x-6 mt-8">
                 <a
