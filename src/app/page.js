@@ -4,7 +4,8 @@ import { SiTidal } from 'react-icons/si';
 import Link from 'next/link';
 export default function Home() {
   return (
-    <div className="bg-black text-white min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 md:px-8 py-8">
+   
+    <div className="bg-black text-white min-h-screen flex flex-col items-center px-4 sm:px-6 md:px-8 py-8">
       <Header />
 
       <div className="w-full px-4 flex justify-center mt-8 sm:mt-12 md:mt-15 lg:mt-20">

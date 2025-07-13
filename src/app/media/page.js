@@ -2,10 +2,8 @@ import Header from '../components/Header';
 
 export default function MediaPage() {
   return (
-    <div className="bg-black text-white min-h-screen flex flex-col items-center px-4 sm:px-6 md:px-8 py-8">
-
+    <div className="bg-black text-white min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 md:px-8 py-8">
       <Header />
-
       <div className="w-full flex flex-col items-center space-y-16 mt-6 sm:mt-10 md:mt-14 lg:mt-20 px-4">
         {/* Video 1 */}
         <div className="w-full max-w-3xl aspect-video">
