@@ -22,7 +22,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-full flex flex-wrap justify-center gap-6 mt-10 mb-8 sm:mt-10 md:mt-10 lg:mt-20 px-4">
+      <div className="w-full flex flex-wrap gap-6 mt-16 mb-8 sm:mt-24 md:mt-20 lg:mt-20 px-4">
         <Link href="https://open.spotify.com/artist/58kIjokyAq51h6Imc7htQG?si=n2QX4XpoT4akcW_qmfEttA" target="_blank" rel="noopener noreferrer">
           <FaSpotify className="w-8 h-8 sm:w-10 sm:h-10 text-white grayscale hover:grayscale-0 transition" />
         </Link>
