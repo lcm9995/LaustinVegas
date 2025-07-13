@@ -21,12 +21,12 @@ export default function Header() {
           alt="Laustin Vegas Logo" 
           width={600}
             height={180}
-            className="w-[80vw] h-auto max-w-[600px] sm:max-w-[200px] md:max-w-[300px] lg:max-w-[600px]"
+            className="w-[50vw] h-auto max-w-[600px] sm:max-w-[150px] md:max-w-[200px] lg:max-w-[600px]"
             priority
         />
       </div>
 
-      <div className="flex justify-center lg:space-x-10 md:space-x-8 sm:space-x-5 mt-0 lg:mt-4 mb-0 lg:text-med md:text-med sm:text-sm uppercase font-semibold tracking-widest">
+      <div className="flex justify-center lg:space-x-10 md:space-x-5 sm:space-x-4 mt-0 lg:mt-4 mb-0 lg:text-med md:text-sm sm:text-sm uppercase font-semibold tracking-widest">
         {navItems.map((item) => (
           <Link
             key={item.href}
