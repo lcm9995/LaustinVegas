@@ -34,7 +34,7 @@ export default function Header() {
       </div>
 
       <div className="flex justify-center space-x-10 md:space-x-6 sm:space-x-3 mt-0 lg:mt-4 sm:mt-2 mb-4 sm:mb-6 md:mb-8 lg:mb-0
- text-base md:text-sm sm:text-xs uppercase font-semibold tracking-wider">
+ text-base lg:text-med md:text-sm sm:text-xs uppercase font-semibold tracking-wider">
         {navItems.map((item) => (
           <Link key={item.href} href={item.href}>
           <span
