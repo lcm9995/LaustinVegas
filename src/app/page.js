@@ -8,7 +8,7 @@ export default function Home() {
     <div className="bg-black text-white min-h-screen flex flex-col items-center px-4 sm:px-6 md:px-8 py-8">
       <Header />
 
-      <div className="w-full px-4 flex justify-center mt-8 sm:mt-12 md:mt-15 lg:mt-20">
+      <div className="w-full px-4 flex justify-center mt-8 sm:mt-20 md:mt-15 lg:mt-20">
         <div className="aspect-video w-[90%] sm:w-[85%] md:w-[80%] lg:w-[800px]">
           <iframe
             className="w-full h-full"
@@ -22,7 +22,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-full flex flex-wrap justify-center gap-6 mt-10 mb-8 sm:mt-5 md:mt-10 lg:mt-20 px-4">
+      <div className="w-full flex flex-wrap justify-center gap-6 mt-10 mb-8 sm:mt-10 md:mt-10 lg:mt-20 px-4">
         <Link href="https://open.spotify.com/artist/58kIjokyAq51h6Imc7htQG?si=n2QX4XpoT4akcW_qmfEttA" target="_blank" rel="noopener noreferrer">
           <FaSpotify className="w-8 h-8 sm:w-10 sm:h-10 text-white grayscale hover:grayscale-0 transition" />
         </Link>
