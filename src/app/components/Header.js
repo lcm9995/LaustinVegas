@@ -9,10 +9,10 @@ export default function Header() {
           <img 
             src="/Asset 11.svg" 
             alt="Laustin Vegas Logo" 
-            className="w-[600px] h-[180px] object-fill"
+            className="object-fill w-[600px] h-[180px] lg:w-[600px] lg:h-[180px] md:w-[300px] md:h-[300px] sm:w-[200px] sm:h-[160px]"
           />
         </div>
-        <div className="flex justify-center space-x-8 mt-0 mb-0 text-white text-med uppercase font-semibold tracking-widest uppercase">
+        <div className="flex justify-center lg:space-x-8 md:space-x-6 sm:space-x-4 mt-0 mb-0 text-white lg:text-med sm:text-sm uppercase font-semibold tracking-widest uppercase">
           <a href="/" className="hover:text-red-500 transition duration-200">Home</a>
           <a href="/media" className="hover:text-red-500 transition duration-200">Media</a>
           <a href="/about" className="hover:text-red-500 transition duration-200">About</a>
