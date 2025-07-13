@@ -1,7 +1,7 @@
 import Header from './components/Header';
 import { FaSpotify, FaApple, FaYoutube } from "react-icons/fa";
 import { SiTidal } from 'react-icons/si';
-
+import Link from 'next/link';
 export default function Home() {
   return (
     <div className="bg-black text-white min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 md:px-8 py-8">
@@ -22,18 +22,18 @@ export default function Home() {
       </div>
 
       <div className="w-full flex flex-wrap justify-center gap-6 mt-10 mb-8 sm:mt-5 md:mt-10 lg:mt-20 px-4">
-        <a href="https://open.spotify.com/artist/58kIjokyAq51h6Imc7htQG?si=n2QX4XpoT4akcW_qmfEttA" target="_blank" rel="noopener noreferrer">
+        <Link href="https://open.spotify.com/artist/58kIjokyAq51h6Imc7htQG?si=n2QX4XpoT4akcW_qmfEttA" target="_blank" rel="noopener noreferrer">
           <FaSpotify className="w-8 h-8 sm:w-10 sm:h-10 text-white grayscale hover:grayscale-0 transition" />
-        </a>
-        <a href="https://music.apple.com/us/artist/laustin-vegas/1714944338" target="_blank" rel="noopener noreferrer">
+        </Link>
+        <Link href="https://music.apple.com/us/artist/laustin-vegas/1714944338" target="_blank" rel="noopener noreferrer">
           <FaApple className="w-8 h-8 sm:w-10 sm:h-10 text-white grayscale hover:grayscale-0 transition" />
-        </a>
-        <a href="https://www.youtube.com/@LaustinVegas" target="_blank" rel="noopener noreferrer">
+        </Link>
+        <Link href="https://www.youtube.com/@LaustinVegas" target="_blank" rel="noopener noreferrer">
           <FaYoutube className="w-8 h-8 sm:w-10 sm:h-10 text-white grayscale hover:grayscale-0 transition" />
-        </a>
-        <a href="https://tidal.com/browse/artist/52121431?u" target="_blank" rel="noopener noreferrer">
+        </Link>
+        <Link href="https://tidal.com/browse/artist/52121431?u" target="_blank" rel="noopener noreferrer">
           <SiTidal className="w-8 h-8 sm:w-10 sm:h-10 text-white grayscale hover:grayscale-0 transition" />
-        </a>
+        </Link>
       </div>
     </div>
   );

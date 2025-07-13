@@ -1,5 +1,6 @@
 import Header from '../components/Header';
 import { FaInstagram, FaEnvelope, FaYoutube } from "react-icons/fa";
+import Link from 'next/link';
 
 export default function About() {
   return (
@@ -19,23 +20,23 @@ export default function About() {
           </p> */}
 
           <div className="flex justify-center space-x-6">
-            <a
+            <Link
               href="https://www.instagram.com/laustinvegas"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaInstagram className="w-8 h-8 text-white grayscale hover:grayscale-0 transition" />
-            </a>
-            <a href="mailto:laustinvegas@example.com">
+            </Link>
+            <Link href="mailto:laustinvegas@example.com">
               <FaEnvelope className="w-8 h-8 text-white grayscale hover:grayscale-0 transition" />
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://www.youtube.com/@LaustinVegas"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaYoutube className="w-8 h-8 text-white grayscale hover:grayscale-0 transition" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
