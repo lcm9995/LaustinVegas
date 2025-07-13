@@ -1,0 +1,51 @@
+ {//* <>
+          {/* Left Border */}
+          <div className="fixed top-4 bottom-4 left-4 w-px bg-red-500 pointer-events-none z-50" aria-hidden="true" />
+          
+          {/* Right Border */}
+          <div className="fixed top-4 bottom-4 right-4 w-px bg-red-500 pointer-events-none z-50" aria-hidden="true" />
+          
+          {/* Top Border */}
+          <div className="fixed top-4 left-4 right-4 h-px bg-red-500 pointer-events-none z-50" aria-hidden="true" />
+        </>*/
+
+
+        export default function Sidebar() {
+  const [isOpen, setIsOpen] = useState(false);
+  return (
+    <div className="relative z-50">
+      {/* Icon stays fixed in place */}
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="p-2 focus:outline-none"
+      >
+        <div className="space-y-1">
+          <div className="left-8 w-6 h-0.5 bg-white"></div>
+          <div className="w-6 h-0.5 bg-white"></div>
+          <div className="w-6 h-0.5 bg-white"></div>
+        </div>
+      </button>
+
+      {/* Absolutely positioned dropdown, doesn't shift icon */}
+      {isOpen && (
+        <div className="absolute top-10 left-0 w-44 bg-black border border-white p-4 flex flex-col gap-2 shadow-lg">
+          <a href="#" className="text-white hover:underline">Home</a>
+          <a href="#" className="text-white hover:underline">Music</a>
+          <a href="#" className="text-white hover:underline">About</a>
+          <a href="#" className="text-white hover:underline">Contact</a>
+        </div>
+      )}
+    </div>
+  );
+}
+
+
+   <>
+     <button
+        onClick={() => setOpen(!open)}
+        className="fixed top-9 left-16 z-50 p-2 rounded hover:bg-white hover:bg-opacity-10 transition"
+        aria-label="Open Menu">
+        <span className="block w-10 h-1 bg-white mb-1.5"></span>
+        <span className="block w-10 h-1 bg-white mb-1.5"></span>
+        <span className="block w-10 h-1 bg-white mb-1.5"></span>
+    </button>
