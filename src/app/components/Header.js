@@ -14,7 +14,7 @@ export default function Header() {
   ];
 
   return (
-    <div className="flex flex-col items-center px-4 pt-12 sm:pt-8">
+    <div className="flex flex-col items-center px-4 pt-12 sm:pt-8 mb-6">
       <div className="flex justify-center mt-0 mb-12 sm:mb-6 md:mb-7">
         <Image
           src="/Asset 18.svg" 

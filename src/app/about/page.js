@@ -4,9 +4,8 @@ import Link from 'next/link';
 
 export default function About() {
   return (
-    <div className="bg-black text-white min-h-screen flex flex-col justify-center items-center p-8">
+    <div className="bg-black text-white min-h-screen flex flex-col items-center p-8">
       <Header />
-
       <div className="flex flex-col items-center w-full max-w-5xl px-4 mt-12">
       <div className="border border-white flex items-center justify-center
              w-[90%] h-[120px]
@@ -15,9 +14,9 @@ export default function About() {
              lg:w-[60%] lg:h-[150px]">
 
           {/* Optional placeholder for future bio or text */}
-          {/* <p className="text-lg leading-relaxed text-center mb-8">
-            Bio coming soon...
-          </p> */}
+          <p className="text-lg leading-relaxed text-center mb-8">
+            About
+          </p> 
 
           <div className="flex justify-center space-x-6">
             <Link
@@ -27,9 +26,9 @@ export default function About() {
             >
               <FaInstagram className="w-8 h-8 text-white grayscale hover:grayscale-0 transition" />
             </Link>
-            <Link href="mailto:laustinvegas@example.com">
+            {/*<Link href="mailto:laustinvegas@example.com">
               <FaEnvelope className="w-8 h-8 text-white grayscale hover:grayscale-0 transition" />
-            </Link>
+        </Link>*/}
             <Link
               href="https://www.youtube.com/@LaustinVegas"
               target="_blank"
