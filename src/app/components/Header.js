@@ -26,7 +26,7 @@ export default function Header() {
         />
       </div>
 
-      <div className="flex justify-center lg:space-x-10 md:space-x-5 sm:space-x-4 mt-0 lg:mt-4 mb-0 lg:text-med md:text-sm sm:text-sm uppercase font-semibold tracking-widest">
+      <div className="flex justify-center lg:space-x-10 md:space-x-8 sm:space-x-8 mt-0 lg:mt-4 mb-0 lg:text-med md:text-sm sm:text-sm uppercase font-semibold tracking-widest">
         {navItems.map((item) => (
           <Link
             key={item.href}
