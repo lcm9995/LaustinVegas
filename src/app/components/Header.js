@@ -19,14 +19,14 @@ export default function Header() {
         <Image
           src="/Asset 18.svg" 
           alt="Laustin Vegas Logo" 
-          width={600}
+            width={500}
             height={180}
             className="
             w-[50vw]              // default: half the screen width
             h-auto
             sm:w-[160px]          // small screen override
             md:w-[220px]          // medium screen
-            lg:w-[600px]          // large screen
+            lg:w-[400px]          // large screen
             max-w-[90%]           // never spill out of container
           "
            priority
