@@ -14,9 +14,6 @@ export default function About() {
              lg:w-[60%] lg:h-[150px]">
 
           {/* Optional placeholder for future bio or text */}
-          <p className="text-lg leading-relaxed text-center mb-8">
-            About
-          </p> 
 
           <div className="flex justify-center space-x-6">
             <Link
@@ -28,14 +25,14 @@ export default function About() {
             </Link>
             {/*<Link href="mailto:laustinvegas@example.com">
               <FaEnvelope className="w-8 h-8 text-white grayscale hover:grayscale-0 transition" />
-        </Link>*/}
-            <Link
+            < /Link>*/}
+            {/*<Link
               href="https://www.youtube.com/@LaustinVegas"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaYoutube className="w-8 h-8 text-white grayscale hover:grayscale-0 transition" />
-            </Link>
+          </Link>*/}
           </div>
         </div>
       </div>

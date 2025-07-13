@@ -21,8 +21,15 @@ export default function Header() {
           alt="Laustin Vegas Logo" 
           width={600}
             height={180}
-            className="w-full h-auto max-w-[600px] sm:max-w-[150px] md:max-w-[250px] lg:max-w-[600px]"
-            priority
+            className="
+            w-[50vw]              // default: half the screen width
+            h-auto
+            sm:w-[160px]          // small screen override
+            md:w-[220px]          // medium screen
+            lg:w-[600px]          // large screen
+            max-w-[90%]           // never spill out of container
+          "
+           priority
         />
       </div>
 
