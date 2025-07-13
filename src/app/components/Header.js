@@ -14,7 +14,7 @@ export default function Header() {
   ];
 
   return (
-    <div className="flex flex-col items-center px-4 pt-12 sm:pt-8 mb-6">
+    <div className="flex flex-col items-center px-4 pt-12 sm:pt-8 mb-2">
       <div className="flex justify-center mt-0 mb-12 sm:mb-6 md:mb-7">
         <Image
           src="/Asset 18.svg" 
@@ -33,7 +33,7 @@ export default function Header() {
         />
       </div>
 
-      <div className="flex justify-center space-x-10 md:space-x-6 sm:space-x-3 mt-0 lg:mt-4 sm:mt-2 mb-4 sm:mb-6 md:mb-8 lg:mb-0
+      <div className="flex justify-center space-x-10 md:space-x-6 sm:space-x-2 mt-0 lg:mt-4 sm:mt-2 mb-2 sm:mb-2 md:mb-3 lg:mb-0
  text-base lg:text-med md:text-sm sm:text-xs uppercase font-semibold tracking-wider">
         {navItems.map((item) => (
           <Link key={item.href} href={item.href}>
