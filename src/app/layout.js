@@ -1,5 +1,6 @@
 
 import './globals.css';
+import { Analytics } from "@vercel/analytics/next"
 import Sidebar from './components/Sidebar';
 import BorderFrame from './components/BorderFrame';
 
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
       
         <main className="flex-1">{children}
         </main>
+        <Analytics />
         <footer className="text-center p-4 text-xs text-white border-t bg-black border-black">
           © {new Date().getFullYear()} Laustin Vegas. All rights reserved.
         </footer>
