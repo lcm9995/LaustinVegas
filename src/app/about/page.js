@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function About() {
   return (
-    <div className="bg-black text-white min-h-screen flex flex-col items-center p-8">
+    <div className="text-white min-h-screen flex flex-col items-center p-8">
       <Header />
       <div className="flex flex-col items-center w-full max-w-5xl px-4 mt-12">
       <div className="border border-white flex items-center justify-center
