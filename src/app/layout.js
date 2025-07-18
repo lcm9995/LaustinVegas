@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.png" type="image/png" />
 
       </head>
-      <body className="bg-black text-white flex flex-col min-h-screen">
+      <body className="bg-black text-white flex flex-col min-h-screen sm:py-8">
         <BackgroundVideo />
         <div className="fixed top-0 left-0 w-full h-full bg-black opacity-40 z-0" />
 
